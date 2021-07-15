@@ -25,6 +25,7 @@
         app:layout_constraintVertical_bias="0.061" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -44,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="IN MINUTES"
+        android:text="IN MINUTES OR DAYS"
         android:textColor="@color/text_color_black"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,6 +56,7 @@
         app:layout_constraintVertical_bias="0.061" />
 
     <Button
+        android:id="@+id/btnDatePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -62,4 +64,54 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:backgroundTint="@color/primary_accent_color"/>
+
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondary_accent_color"
+        android:layout_marginTop="20sp"
+        android:textSize="35sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_black"
+        android:text="Selected Date"
+        />
+
+    <TextView
+        android:id="@+id/tvAgeInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondary_accent_color"
+        android:layout_marginTop="20sp"
+        android:textSize="35sp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_black"
+        android:text="Age in minutes"
+        />
+
+    <TextView
+        android:id="@+id/tvAgeInDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondary_accent_color"
+        android:layout_marginTop="20sp"
+        android:textSize="35sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_black"
+        android:text="Age in days"
+        />
+
 </LinearLayout>
